@@ -1,0 +1,2 @@
+# Predicting-Ho-Chi-Minh-City-Traffic-Flow-Based-on-Weather-Conditions
+Traffic congestion is a common issue in urban areas, affecting travel times, productivity, and the environment. Weather conditions, road characteristics, and other external factors play a significant role in influencing traffic flow. This project aims to explore and analyze these factors to develop a model for predicting traffic flow and speed.
