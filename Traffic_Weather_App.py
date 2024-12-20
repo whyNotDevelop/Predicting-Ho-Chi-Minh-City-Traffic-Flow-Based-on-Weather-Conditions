@@ -7,11 +7,11 @@ import pickle
 from xgboost import XGBRegressor
 
 # Load models and datasets
-with open("whyNotDevelop\\Predicting-Ho-Chi-Minh-City-Traffic-Flow-Based-on-Weather-Conditions\\xgb_model.pkl", "rb") as file:
+with open("xgb_model.pkl", "rb") as file:
     rf_model = pickle.load(file)
 
-daily_data_path = r"whyNotDevelop\\Predicting-Ho-Chi-Minh-City-Traffic-Flow-Based-on-Weather-Conditions\\daily_traffic_weather.csv"
-full_data_path = r"whyNotDevelop\\Predicting-Ho-Chi-Minh-City-Traffic-Flow-Based-on-Weather-Conditions\\cleaned_traffic_weather_dataset.csv"
+daily_data_path = r"daily_traffic_weather.csv"
+full_data_path = r"cleaned_traffic_weather_dataset.csv"
 
 daily_df = pd.read_csv(daily_data_path)
 full_df = pd.read_csv(full_data_path)
